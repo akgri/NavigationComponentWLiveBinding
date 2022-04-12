@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/AnasayfaBackground"
+    tools:context=".Anasayfa">
+
+    <TextView
+        android:id="@+id/tv_AnasayfaHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="ANASAYFA"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+
+        android:id="@+id/btn_GitA"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/turuncuButton"
+        android:text="GİT>A"
+        app:layout_constraintEnd_toEndOf="@+id/tv_AnasayfaHead"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/tv_AnasayfaHead"
+        app:layout_constraintTop_toBottomOf="@+id/tv_AnasayfaHead"></Button>
+
+    <Button
+
+        android:id="@+id/btn_GitX"
+        android:layout_width="160dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="124dp"
+        android:backgroundTint="@color/turuncuButton"
+        android:text="GİT>X"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_GitA"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_GitA"
+        app:layout_constraintTop_toBottomOf="@+id/btn_GitA"
+        app:layout_constraintVertical_bias="0.0"></Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
